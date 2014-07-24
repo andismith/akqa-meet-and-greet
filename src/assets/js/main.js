@@ -135,6 +135,9 @@ window.akqa = window.akqa || {};
     $body.css({
       height: $(window).height()
     });
+    $('.main').css({
+      height: $(window).height()
+    });
 
     setTimeout(function() {
       $('#welcome').addClass('show');
