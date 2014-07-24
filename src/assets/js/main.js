@@ -122,9 +122,8 @@ window.akqa = window.akqa || {};
       selected.group = value.substr(0, value.indexOf('-'));
       selected.num = value.substr(value.indexOf('-') + 1);
 
-      setTimeout(function() {
-        $('#who-are-you h2').trigger('click');
-      },100);
+      $('#who-are-you h2').html('Hi ' + $('.employees option:selected').text().split(' ')[0]);
+
       populateNames();
       addClassToBody();
       allowNext();
