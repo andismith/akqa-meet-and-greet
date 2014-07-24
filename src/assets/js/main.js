@@ -2,6 +2,8 @@ window.akqa = window.akqa || {};
 
 (function (app, $) {
 
+  var $body = $('body');
+
   var employees = [
     "Ajoy Roy-Chowdhury",
     "Amber Davies",
@@ -104,9 +106,9 @@ window.akqa = window.akqa || {};
 
   function addClassToBody() {
     for (var i = 0, l = groups.length; i < l; i++) {
-      $('body').removeClass('group-' + i);
+      $body.removeClass('group-' + i);
     }
-    $('body').addClass('group-' + selected.group);
+    $body.addClass('group-' + selected.group);
     $(window).scrollTop(0);
   }
 
@@ -129,6 +131,10 @@ window.akqa = window.akqa || {};
   app.init = function () {
     groups = splitArray(employees, GROUP_NUM);
     console.log(groups);
+
+    $body.css({
+      height: $(window).height()
+    });
 
     initEvent();
     populateDropDown();
