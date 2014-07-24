@@ -20,21 +20,17 @@
     <link rel="dns-prefetch" href="//www.google-analytics.com" />
 
     
-    <!--[if lt IE 9]><link rel="stylesheet" href="/assets/css/main-ie.css"><![endif]-->
-    <!--[if gt IE 8]><!--><!-- build:css /assets/css/main.min.css -->
+    <!--[if lt IE 9]><link rel="stylesheet" href="assets/css/main-ie.css"><![endif]-->
+    <!--[if gt IE 8]><!--><!-- build:css assets/css/main.min.css -->
     <link href="assets/css/main.css" rel="stylesheet">
     <!-- endbuild --><!--<![endif]-->
     {{#if this.page.data.css}}
     <link rel="stylesheet" href="{{ this.page.data.css }}">
     {{/if}}
 
-    <!-- build:js /assets/js/modernizr.min.js -->
+    <!-- build:js assets/js/modernizr.min.js -->
     <script src="assets/js/modernizr.js"></script>
     <!-- endbuild -->
-
-    {{#if this.page.data.video}}
-    <script src="assets/js/vendors/jwplayer.js"></script>
-    {{/if}}
 
 </head>
 
