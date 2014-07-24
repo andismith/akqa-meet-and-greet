@@ -3,22 +3,37 @@ window.akqa = window.akqa || {};
 (function(link, $, undefined) {
 
     var $slides = $('.slide');
+    var $ctas = $('.cta');
 
     var handleEvents = function () {
         $('a').on('click', function(e) {
             var $el = e.target || e.srcElement;
             var $target = {};
-            console.log('click event');
+            var timeout = 500;
 
             if ($el.hash.length > 1) {
                 $target = $($el.hash);
-                console.log('internal target');
 
                 if ($target.length && $target.hasClass('slide')) {
                     e.preventDefault();
-                    console.log('ok, has class');
                     $slides.removeClass('active');
                     $target.addClass('active');
+
+                    $ctas.addClass('disabled');
+
+                    if ($el.hash !== '#who-are-you') {
+                        if ($el.hash === '#team-up') {
+                            timeout = 5000;
+                        }
+
+                        if ($el.hash === '#talk-to') {
+                            timeout = 5000;
+                        }
+                        setTimeout(function() {
+                            $('.active .cta').removeClass('disabled');
+                        }, timeout);  
+                    }
+                    
                 }
             }
 
