@@ -1,0 +1,34 @@
+{{#each data}}
+  <div class="container">
+    {{#if this.title}}
+      {{#each this.title}}
+      <h2>{{{this}}}</h2>
+      {{/each}}
+    {{/if}}
+
+    {{#if this.text}}
+      <p>{{{this.text}}}</p>
+    {{/if}}
+
+    {{#if this.subtext}}
+      <p class="subtext">{{{this.subtext}}}</p>
+    {{/if}}
+
+    {{#if this.select}}
+      {{>select}}
+    {{/if}}
+
+    {{#if this.names}}
+      <p class="names subtext"></p>
+    {{/if}}
+
+    {{#if this.animate}}
+      {{>animate}}
+    {{/if}}
+
+    {{#if this.link}}
+      {{>link}}
+    {{/if}}
+  </div>
+
+{{/each}}

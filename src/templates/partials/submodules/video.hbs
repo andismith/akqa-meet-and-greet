@@ -1,0 +1,10 @@
+<div class="video">
+  <div class="wrapper">
+    {{#compare this.video.type "vimeo"}}
+    <iframe title="{{this.video.title}}" src="//player.vimeo.com/video/{{this.video.id}}?title=0&amp;byline=0&amp;portrait=0&amp;color=8dc421&amp;autoplay=0" width="650" height="364" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    {{/compare}}
+    {{#compare this.video.type "youtube"}}
+    <iframe title="{{this.video.title}}" width="640" height="360" src="//www.youtube.com/embed/{{this.video.id}}" frameborder="0" allowfullscreen></iframe>
+    {{/compare}}
+  </div>
+</div>

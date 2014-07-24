@@ -1,0 +1,16 @@
+---
+published: true
+---
+
+  <h1 class="logo">AKQA</h1>
+
+  {{#each main.data}}
+  <section class="{{this.section}}{{#if this.class}} {{this.class}}{{/if}}"
+    {{#if this.id}}id="{{this.id}}"{{/if}}>
+
+    {{#compare this.section "slide"}}
+      {{>slide}}
+    {{/compare}}
+
+  </section>
+  {{/each}}

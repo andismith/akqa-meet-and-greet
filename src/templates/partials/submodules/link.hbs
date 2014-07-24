@@ -1,0 +1,9 @@
+<a href="{{this.link.url}}"
+  {{#if this.link.class}}class="{{this.link.class}}"{{/if}}
+  {{#if this.link.track}}
+  data-category="{{this.link.track.category}}"
+  data-action="{{this.link.track.action}}"
+  {{#if this.link.track.label}}data-label="{{this.link.track.label}}"{{/if}}
+  {{/if}}
+  {{#if this.link.target}}target="{{this.link.target}}"{{/if}}
+  >{{this.link.text}}</a>

@@ -1,0 +1,82 @@
+{
+  "data": [{
+    "section": "slide",
+    "class": "active",
+    "id": "welcome",
+    "data": [{
+      "title": ["We are", "Group three"],
+      "link": {
+        "class": "cta",
+        "url": "#who-are-you",
+        "text": "Start"
+      }
+    }]
+  },{
+    "section": "slide",
+    "id": "who-are-you",
+    "data": [{
+      "title": ["Find yourself"],
+      "select": {
+        "text": "Please select your name from the list"
+      },
+      "link": {
+        "class": "cta disabled",
+        "url": "#team-up",
+        "text": "Next"
+      }
+    }]
+  },{
+    "section": "slide",
+    "id": "team-up",
+    "data": [{
+      "title": ["You've been teamed up!"],
+      "text": "Find each other and get your thinking caps on:",
+      "names": true,
+      "link": {
+        "class": "cta",
+        "url": "#talk-to",
+        "text": "Team"
+      }
+    }]
+  },{
+    "section": "slide",
+    "id": "talk-to",
+    "data": [{
+      "title": ["Inspire and influence"],
+      "text": "Team task (5mins)",
+      "subtext": "What would you do differently to inspire and influence our clients in new and innovative ways?",
+      "link": {
+        "class": "cta",
+        "url": "#connect",
+        "text": "Inspired"
+      }
+    }]
+  },{
+    "section": "slide",
+    "id": "connect",
+    "data": [{
+      "title": ["Link your phone screens up in a row and tap below at the same time"],
+      "link": {
+        "class": "cta start-animation",
+        "url": "#we-are",
+        "text": "Collab"
+      }
+    }]
+  },{
+    "section": "slide",
+    "id": "we-are",
+    "data": [{
+      "animate": {
+        "items": [{
+          "group0": "We",
+          "group1": "are",
+          "group2": "<img src='/assets/img/akqa.png' width='191' height='91' />"
+        },{
+          "group0": "Together",
+          "group1": "we can",
+          "group2": "<img src='/assets/img/imbue.png' width='259' height='48' />"
+        }]
+      }
+    }]
+  }]
+}

@@ -1,0 +1,21 @@
+.button {
+    background: #eee;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 50%,rgba(227,227,227,1) 100%);
+    border: solid 2px $color-tertiary;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+    color: $color-secondary;
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 18px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+        background: #fff;
+        background: linear-gradient(to bottom, rgba(255,255,255,1) 50%,rgba(242,242,242,1) 100%);
+        color: $color-primary;
+    }
+}
