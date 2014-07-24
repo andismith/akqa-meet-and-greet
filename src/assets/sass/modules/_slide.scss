@@ -81,7 +81,24 @@
 
 #welcome {
   background-image: url(../img/bg/welcome.jpg);
+
+  h2, a {
+    opacity: 0;
+  }
+
+  h2 {
+    transition: opacity 400ms;
+  }
+
+  a {
+    transition: opacity 400ms 700ms;
+  }
+
+  &.show * {
+    opacity: 1;
+  }
 }
+
 #who-are-you {
   background-image: url(../img/bg/who-are-you.jpg);
 }

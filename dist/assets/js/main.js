@@ -136,6 +136,14 @@ window.akqa = window.akqa || {};
       height: $(window).height()
     });
 
+    setTimeout(function() {
+      $('#welcome').addClass('show');
+    }, 1250);
+
+    setTimeout(function() {
+      $body.removeClass('hide-logo');
+    }, 500);
+
     initEvent();
     populateDropDown();
   };
