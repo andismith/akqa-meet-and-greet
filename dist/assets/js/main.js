@@ -107,6 +107,7 @@ window.akqa = window.akqa || {};
       $('body').removeClass('group-' + i);
     }
     $('body').addClass('group-' + selected.group);
+    $(window).scrollTop(0);
   }
 
   function allowNext() {
