@@ -3,7 +3,5 @@
 .sass-cache/
 .tmp
 _old/
-config/redirect-rules/~$rules.xlsx
-dist/
 node_modules/
 src/assets/css/
