@@ -49,18 +49,20 @@
     background-image: url(../img/cta.png);
     background-size: 100%;
     color: #a69b64;
-    display: block;
     height: 75px;
     left: 50%;
     line-height: 4.5;
     margin-left: -37px;
+    opacity: 1;
     position: absolute;
     text-align: center;
+    transition: opacity 500ms;
     top: 230px;
     width: 75px;
 
     &.disabled {
-      display: none;
+      height: 75px;
+      opacity: 0;
     }
   }
 

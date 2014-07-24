@@ -17,7 +17,7 @@ var PATHS = {
     SHORTCUTS: 'redirect-shortcuts/'
 };
 
-var PORT = 4000;
+var PORT = 4001;
 
 module.exports = function (grunt) {
     'use strict';
@@ -403,7 +403,7 @@ module.exports = function (grunt) {
     // compression step including usemin
     grunt.registerTask('compress', ['useminPrepare', 'concat', 'cssmin', 'uglify', 'filerev', 'usemin', 'clean:useminTidy', 'copy:vendorScripts', 'htmlmin']);
 
-    grunt.registerTask('run', ['connect', 'watch']);
+    grunt.registerTask('run', ['connect:content', 'watch']);
     grunt.registerTask('runContent', ['connect:content', 'watch']);
 
 
