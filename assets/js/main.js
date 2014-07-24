@@ -119,9 +119,11 @@ window.akqa = window.akqa || {};
   function initEvent() {
     $('.employees').on('change', function () {
       var value = $(this).val();
-      console.log('triggered');
       selected.group = value.substr(0, value.indexOf('-'));
       selected.num = value.substr(value.indexOf('-') + 1);
+
+      $('#who-are-you h2').html('Hi ' + $('.employees option:selected').text().split(' ')[0]);
+
       populateNames();
       addClassToBody();
       allowNext();
