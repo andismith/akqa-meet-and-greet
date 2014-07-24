@@ -1,8 +1,5 @@
-$benton-sans-light-url: "/assets/fonts/benton-sans/light/de72ba14-fdff-4f82-9e20-0479255e5b5e-";
-$benton-sans-thin-url: "/assets/fonts/benton-sans/thin/46488cc0-1b8e-42e1-8696-27dd7e2eb01d-";
-$benton-sans-book-url: "/assets/fonts/benton-sans/book/0d25f632-e177-4738-a4eb-b5b2464ae8ef-";
-$benton-sans-medium-url: "/assets/fonts/benton-sans/medium/2b0077e1-94cf-4153-95b2-c6e2795e683e-";
-$benton-sans-bold-url: "/assets/fonts/benton-sans/bold/be373bac-8e60-4dee-b748-f43b0eda4588-";
+$benton-sans-light-url: "../fonts/benton-sans/light/de72ba14-fdff-4f82-9e20-0479255e5b5e-";
+$benton-sans-thin-url: "../fonts/benton-sans/thin/46488cc0-1b8e-42e1-8696-27dd7e2eb01d-";
 
 @font-face {
     font-family: "Benton Sans Light";
@@ -32,53 +29,4 @@ $benton-sans-bold-url: "/assets/fonts/benton-sans/bold/be373bac-8e60-4dee-b748-f
 
 %benton-thin {
     font-family: "Benton Sans Thin", Arial, sans-serif;
-}
-
-@font-face {
-    font-family: "Benton Sans Book";
-    src: url("#{$benton-sans-book-url}2.eot");
-    src: url("#{$benton-sans-book-url}2.eot?#iefix") format("embedded-opentype"),
-         url("#{$benton-sans-book-url}3.woff") format("woff"),
-         url("#{$benton-sans-book-url}1.ttf") format("truetype"),
-         url("#{$benton-sans-book-url}4.svg#akqa-2014") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
-%benton-book {
-    font-family: "Benton Sans Book", Arial, sans-serif;
-}
-
-@font-face {
-    font-family: "Benton Sans Medium";
-    src: url("#{$benton-sans-medium-url}2.eot");
-    src: url("#{$benton-sans-medium-url}2.eot?#iefix") format("embedded-opentype"),
-         url("#{$benton-sans-medium-url}3.woff") format("woff"),
-         url("#{$benton-sans-medium-url}1.ttf") format("truetype"),
-         url("#{$benton-sans-medium-url}4.svg#akqa-2014") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
-%benton-medium {
-    font-family: "Benton Sans Medium", Arial, sans-serif;
-}
-
-@font-face {
-    font-family: "Benton Sans Bold";
-    src: url("#{$benton-sans-bold-url}2.eot");
-    src: url("#{$benton-sans-bold-url}2.eot?#iefix") format("embedded-opentype"),
-         url("#{$benton-sans-bold-url}3.woff") format("woff"),
-         url("#{$benton-sans-bold-url}1.ttf") format("truetype"),
-         url("#{$benton-sans-bold-url}4.svg#akqa-2014") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
-%benton-bold {
-    font-family: "Benton Sans Bold", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
 }
