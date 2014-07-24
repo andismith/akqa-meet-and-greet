@@ -35,7 +35,7 @@
   }
 
   .employees {
-    background: rgba(0,0,0,.5) url(/assets/img/select.png) no-repeat right center;
+    background: rgba(0,0,0,.5) url(../img/select.png) no-repeat right center;
     background-size: auto 100%;
     border: solid 1px #fff;
     border-radius: 0;
@@ -46,7 +46,7 @@
   }
 
   .cta {
-    background-image: url(/assets/img/cta.png);
+    background-image: url(../img/cta.png);
     background-size: 100%;
     color: #a69b64;
     display: block;
@@ -80,19 +80,19 @@
 }
 
 #welcome {
-  background-image: url(/assets/img/bg/welcome.jpg);
+  background-image: url(../img/bg/welcome.jpg);
 }
 #who-are-you {
-  background-image: url(/assets/img/bg/who-are-you.jpg);
+  background-image: url(../img/bg/who-are-you.jpg);
 }
 #team-up {
-  background-image: url(/assets/img/bg/team-up.jpg);
+  background-image: url(../img/bg/team-up.jpg);
 }
 #talk-to {
-  background-image: url(/assets/img/bg/talk-to.jpg);
+  background-image: url(../img/bg/talk-to.jpg);
 }
 #connect {
-  background-image: url(/assets/img/bg/connect.jpg);
+  background-image: url(../img/bg/connect.jpg);
 }
 
 #we-are .animate {
@@ -124,7 +124,7 @@
 }
 
 .group-0 #we-are {
-  background-image: url(/assets/img/bg/group-0.jpg); 
+  background-image: url(../img/bg/group-0.jpg); 
 
   .animate .group-0 {
     display: block;
@@ -132,7 +132,7 @@
 }
 
 .group-1 #we-are {
-  background-image: url(/assets/img/bg/group-1.jpg); 
+  background-image: url(../img/bg/group-1.jpg); 
 
   .animate .group-1 {
     display: block;
@@ -140,7 +140,7 @@
 }
 
 .group-2 #we-are {
-  background-image: url(/assets/img/bg/group-2.jpg); 
+  background-image: url(../img/bg/group-2.jpg); 
 
   .animate .group-2 {
     display: block;

@@ -70,11 +70,11 @@
         "items": [{
           "group0": "We",
           "group1": "are",
-          "group2": "<img src='/assets/img/akqa.png' width='191' height='91' />"
+          "group2": "<img src='assets/img/akqa.png' width='191' height='91' />"
         },{
           "group0": "Together",
           "group1": "we can",
-          "group2": "<img src='/assets/img/imbue.png' width='259' height='48' />"
+          "group2": "<img src='assets/img/imbue.png' width='259' height='48' />"
         }]
       }
     }]
