@@ -120,6 +120,7 @@ window.akqa = window.akqa || {};
     $('.employees').on('change', function () {
       var value = $(this).val();
       console.log('triggered');
+      $('#who-are-you h2').trigger('click');
       selected.group = value.substr(0, value.indexOf('-'));
       selected.num = value.substr(value.indexOf('-') + 1);
       populateNames();
