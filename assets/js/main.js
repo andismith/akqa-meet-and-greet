@@ -137,7 +137,7 @@ window.akqa = window.akqa || {};
     $body.css({
       height: $(window).height()
     });
-    $('.main').css({
+    $('.slide').css({
       height: $(window).height()
     });
 
