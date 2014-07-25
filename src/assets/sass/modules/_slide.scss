@@ -78,6 +78,19 @@
       color: #fff;
     }
   }
+
+  .screen-num {
+    bottom: 20px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+
+    span {
+      display: none;
+      @extend %benton-thin;
+    }
+  }
 }
 
 #welcome {

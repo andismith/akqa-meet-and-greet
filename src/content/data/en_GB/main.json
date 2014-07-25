@@ -55,12 +55,13 @@
     "section": "slide",
     "id": "connect",
     "data": [{
-      "title": ["Link your phone screens up in a row and tap below at the same time"],
+      "title": ["Link your phone screens up in a row and tap below at <u>the same time</u>"],
       "link": {
         "class": "cta start-animation",
         "url": "#we-are",
         "text": "Collab"
-      }
+      },
+      "align": true
     }]
   },{
     "section": "slide",
