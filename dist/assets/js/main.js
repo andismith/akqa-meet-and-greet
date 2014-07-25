@@ -14,6 +14,7 @@ window.akqa = window.akqa || {};
     "Carolyn Mangan", // here
     "Cheryl Kitson", // here
     "Claire Lidstone", // here
+    "Erhan Korhaliler", // here
     "Eva Leluel", // accepted
     "Facundo Yacuzzi", // here
     "Gonzalo Ocio", // accepted
@@ -25,7 +26,6 @@ window.akqa = window.akqa || {};
     "Jourik Migom", // here
     "Kevwe Okiti", // here
     "Khayam Mirza", // here
-    "Mike Pires",
     "Nick Turner", // here
     "Nicole Jimenez", // here
     "Pete White", // here
