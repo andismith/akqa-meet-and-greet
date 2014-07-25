@@ -9,25 +9,22 @@ window.akqa = window.akqa || {};
     "Amber Davies", // here
     "Anthony Grace", // here
     "Anthony Lui", // here
-    "Ben Brook", // here
     "Ben Carpenter", // here
     "Ben Simpson", // here
     "Carolyn Mangan", // here
     "Cheryl Kitson", // here
     "Claire Lidstone", // here
-    "Erhan Korhaliller", // here
-    "Eva Leluel",
+    "Eva Leluel", // accepted
     "Facundo Yacuzzi", // here
-    "Gonzalo Ocio",
+    "Gonzalo Ocio", // accepted
     "Hanna Apperley", // here
     "Jakes Lamprecht", // here
     "Jennifer Prakash", // here
-    "Jessica Roberts",
+    "Jessica Roberts", // accepted
     "Joanna Lowe", // here
     "Jourik Migom", // here
     "Kevwe Okiti", // here
     "Khayam Mirza", // here
-    "Mark Knipe",
     "Mike Pires",
     "Nick Turner", // here
     "Nicole Jimenez", // here
