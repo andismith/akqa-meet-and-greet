@@ -8,7 +8,6 @@ html {
 
 body {
   background: $color-bg;
-  box-shadow: 0 0 0 1px #ccc;
   color: $color-secondary;
   @extend %benton-light;
   margin: 0 auto;
@@ -18,7 +17,6 @@ body {
 }
 
 main {
-  min-height: 1000px;
   margin: 0 auto;
   max-width: 800px;
   position: relative;
