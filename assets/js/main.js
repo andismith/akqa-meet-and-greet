@@ -5,44 +5,38 @@ window.akqa = window.akqa || {};
   var $body = $('body');
 
   var employees = [
-    "Ajoy Roy-Chowdhury",
-    "Amber Davies",
-    "Anthony Grace",
-    "Anthony Lui",
-    "Ben Brook",
-    "Ben Carpenter",
-    "Ben Simpson",
-    "Carolyn Mangan",
-    "Cheryl Kitson",
-    "Claire Lidstone",
-    "David Seow",
-    "Erhan Korhaliller",
-    "Facundo Yacuzzi",
+    "Ajoy Roy-Chowdhury", // here
+    "Amber Davies", // here
+    "Anthony Grace", // here
+    "Anthony Lui", // here
+    "Ben Brook", // here
+    "Ben Carpenter", // here
+    "Ben Simpson", // here
+    "Carolyn Mangan", // here
+    "Cheryl Kitson", // here
+    "Claire Lidstone", // here
+    "Erhan Korhaliller", // here
+    "Eva Leluel",
+    "Facundo Yacuzzi", // here
     "Gonzalo Ocio",
-    "Gurmukh Panesar",
-    "Hanna Apperley",
-    "Hannah Thomas",
-    "Jakes Lamprecht",
-    "Jennifer Prakash",
+    "Hanna Apperley", // here
+    "Jakes Lamprecht", // here
+    "Jennifer Prakash", // here
     "Jessica Roberts",
-    "Joanna Lowe",
-    "Jourik Migom",
-    "Kevwe Okiti",
-    "Khayam Mirza",
-    "Lex De Wynter",
+    "Joanna Lowe", // here
+    "Jourik Migom", // here
+    "Kevwe Okiti", // here
+    "Khayam Mirza", // here
     "Mark Knipe",
-    "Michael Wilson",
     "Mike Pires",
-    "Nick Edwards",
-    "Nick Turner",
-    "Nicole Jimenez",
-    "Rebecca Godfrey",
-    "Richard Fenn",
-    "Russell Davies",
-    "Simon Dina",
-    "Sue Jackson",
-    "Sunil Mohan",
-    "Tim Bedwell",
+    "Nick Turner", // here
+    "Nicole Jimenez", // here
+    "Pete White", // here
+    "Rebecca Godfrey", // here
+    "Richard Fenn", // here
+    "Russell Davies", // here
+    "Sunil Mohan", // here
+    "Tim Bedwell", // here
     "Vamsi Vendra"
   ];
 
@@ -109,6 +103,7 @@ window.akqa = window.akqa || {};
       $body.removeClass('group-' + i);
     }
     $body.addClass('group-' + selected.group);
+    $('.screen-num .group-' + selected.group).css('display', 'block');
     $(window).scrollTop(0);
   }
 
